@@ -2,6 +2,25 @@
 Gnome image viewer
 ===================
 
+Introduction
+=============
+
+
+Requirements
+=============
+
+To develop Gnome application you have to install these Linux packages:
+
+    * build-essential
+    * libgtk-3-dev
+
+And for a new Gnome developer there is an API Tool un Linux called **DevHelp** which is very useful.
+
+Description
+============
+
+Basic Gnome image viewer with ScrollBar and button to load another image.
+
 Compile
 ========
 
@@ -13,4 +32,15 @@ Launch
 =======
 
 Launch using ``./gnome-viewer`` in bash.
+
+References
+===========
+
+WikiBook::
+
+    * http://es.wikibooks.org/wiki/Programaci%C3%B3n_en_C/Uso_de_funciones
+
+Gnome Developers::
+
+    * http://developer.gnome.org/gnome-devel-demos/stable/image-viewer.c.html
 
