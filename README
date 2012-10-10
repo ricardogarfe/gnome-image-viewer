@@ -1,0 +1,16 @@
+===================
+Gnome image viewer
+===================
+
+Compile
+========
+
+GCC command to compile c application:
+
+    * gcc -g -Wall `pkg-config --cflags gtk+-3.0` gnome-viewer.c -o gnome-viewer `pkg-config --libs gtk+-3.0`
+
+Launch
+=======
+
+Launch using ``./gnome-viewer`` in bash.
+
